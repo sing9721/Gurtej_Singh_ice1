@@ -5,7 +5,15 @@ package CardGameWeek4;
  * @author Gurtej Singh
  */
 public class Card {
-    
+        public String Joker;
+
+    public String getJoker() {
+        return Joker;
+    }
+
+    public void setJoker(String _Joker) {
+        Joker = _Joker;
+    }
         public enum Suit {HEARTS, CLUBS,SPADES,DIAMONDS};
         public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};
         private final Suit suit;
