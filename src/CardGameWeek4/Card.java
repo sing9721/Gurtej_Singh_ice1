@@ -11,8 +11,8 @@ public class Card {
         return Joker;
     }
 
-    public void setJoker(String _Jker) {
-        Joker = _Jker;
+    public void setJoker(String _Joker) {
+        Joker = _Joker;
     }
         public enum Suit {HEARTS, CLUBS,SPADES,DIAMONDS};
         public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};
