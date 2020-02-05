@@ -2,7 +2,7 @@ package CardGameWeek4;
 /**
  * Starter code for the Card class.
  * To be used in Week 4.
- * @author Gurtej Singh
+ * @author Gur@@@@@@ej Singh
  */
 public class Card {
         public String Joker;
